@@ -1,0 +1,16 @@
+name: "my-dashboard"
+navbar:
+  title: "My Dashboard"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: mailto:<sheina.sim@usda.gov>
+    - icon: fa-github fa-lg
+      href: http://github.com/sheinasim/
+output:
+  html_document:
+    theme: darkly
