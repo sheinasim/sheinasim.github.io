@@ -1,5 +1,5 @@
 ---
-title: "Test Dash"
+title: "PBARC QLB colony"
 output: 
   flexdashboard::flex_dashboard:
     vertical_layout: scroll
@@ -15,6 +15,7 @@ library(dplyr)
 library(ggplot2)
 library(readxl)
 library(flexdashboard)
+library(wesanderson)
 
 data_summary <- function(data, varname, groupnames){
   require(plyr)
@@ -27,37 +28,43 @@ data_summary <- function(data, varname, groupnames){
   data_sum <- rename(data_sum, c("mean" = varname))
  return(data_sum)
 }
+
+pal1 <- wes_palette("Darjeeling1", 5, type = "continuous")
+pal2 <- wes_palette("FantasticFox1", 5, type = "continuous")
+pal3 <- wes_palette("Cavalcanti1", 5, type = "continuous")
 ```
 
 ```{r Read in file}
 
-data_df <- read_tsv("test.txt", col_names=T, trim_ws = TRUE, skip_empty_rows = TRUE)
+data_xl_df <- readxl::read_xlsx("qlb_colony_spreadsheet.xlsx", col_names=T, sheet="lifestages") %>% 
+  gather(key = "Life stage", value = "Count", -Date) %>% 
+  mutate(`Life stage` = fct_relevel(`Life stage`, "Larvae", "Pupae", "Adult female", "Adult male", "Adult mating"))
+
+# View(data_xl_df)
 
 ```
 
-### Chart 1
+### QLB colony individuals by life stage
 
-```{r plot line}
-ggplot(data=data_df, aes(x=X, y=Y1)) +
-  geom_line()+
-  geom_point()
+```{r plot stackedbar}
 
-```
-
-### Chart 2
-
-```{r plot hist}
-
-ggplot(data_df, aes(x=Y1)) + geom_histogram()
+ggplot(data_xl_df, aes(fill=`Life stage`, y=Count, x=Date)) + 
+    geom_bar(position="stack", stat="identity") +
+    theme_bw() +
+    theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),) +
+    xlab("") +
+    scale_y_continuous(labels = scales::number_format(accuracy = 1)) + 
+    scale_fill_manual(values=pal3)
+    
 
 ```
 
-### Chart 3
+### ""
 
-```{r plot lolli}
+```{r plot lolli, echo=F}
 
-ggplot(data_df, aes(x=X, y=Y2)) +
-  geom_point() + 
-  geom_segment( aes(x=X, xend=X, y=0, yend=Y2))
+# ggplot(data_df, aes(x=X, y=Y2)) +
+#   geom_point() + 
+#   geom_segment( aes(x=X, xend=X, y=0, yend=Y2))
 
 ```
