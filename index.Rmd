@@ -3,6 +3,7 @@ title: "PBARC QLB colony"
 output: 
   flexdashboard::flex_dashboard:
     vertical_layout: scroll
+date: "`r Sys.Date()`"
 ---
 
 
@@ -32,6 +33,8 @@ data_summary <- function(data, varname, groupnames){
 pal1 <- wes_palette("Darjeeling1", 5, type = "continuous")
 pal2 <- wes_palette("FantasticFox1", 5, type = "continuous")
 pal3 <- wes_palette("Cavalcanti1", 5, type = "continuous")
+
+
 ```
 
 ```{r Read in file}
@@ -44,7 +47,7 @@ data_xl_df <- readxl::read_xlsx("qlb_colony_spreadsheet.xlsx", col_names=T, shee
 
 ```
 
-### QLB colony individuals by life stage
+## QLB colony individuals by life stage
 
 ```{r plot stackedbar}
 
