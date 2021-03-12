@@ -47,7 +47,7 @@ data_xl_df <- readxl::read_xlsx("qlb_colony_spreadsheet.xlsx", col_names=T, shee
 
 ```
 
-## QLB colony individuals by life stage
+### QLB colony individuals by life stage
 
 ```{r plot stackedbar}
 
