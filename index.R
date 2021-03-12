@@ -32,7 +32,7 @@ data_xl_df <- readxl::read_xlsx("qlb_colony_spreadsheet.xlsx", col_names=T, shee
   gather(key = "Life stage", value = "Count", -Date) %>% 
   mutate(`Life stage` = fct_relevel(`Life stage`, "Larvae", "Pupae", "Adult female", "Adult male", "Adult mating"))
 
-# View(data_xl_df)
+View(data_xl_df)
 
 
 
@@ -49,10 +49,12 @@ ggplot(data_xl_df, aes(fill=`Life stage`, y=Count, x=Date)) +
 
 
 
-## ----plot lolli, echo=F-------------------------------------------------------------------------------------------------------------
+## ----results = hide, echo = FALSE, include = FALSE----------------------------------------------------------------------------------
 
 # ggplot(data_df, aes(x=X, y=Y2)) +
 #   geom_point() + 
 #   geom_segment( aes(x=X, xend=X, y=0, yend=Y2))
+
+knitr::purl("index.Rmd")
 
 

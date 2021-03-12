@@ -59,12 +59,14 @@ ggplot(data_xl_df, aes(fill=`Life stage`, y=Count, x=Date)) +
 
 ```
 
-### ""
+### 
 
-```{r plot lolli, echo=F}
+```{r results = FALSE, echo = FALSE, include = FALSE}
 
 # ggplot(data_df, aes(x=X, y=Y2)) +
 #   geom_point() + 
 #   geom_segment( aes(x=X, xend=X, y=0, yend=Y2))
+
+# knitr::purl("index.Rmd")
 
 ```
