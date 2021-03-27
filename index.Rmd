@@ -41,7 +41,7 @@ pal3 <- wes_palette("Cavalcanti1", 5, type = "continuous")
 
 data_xl_df <- readxl::read_xlsx("qlb_colony_spreadsheet.xlsx", col_names=T, sheet="lifestages") %>% 
   gather(key = "Life stage", value = "Count", -Date) %>% 
-  mutate(`Life stage` = fct_relevel(`Life stage`, "Larvae", "Pupae", "Adult female", "Adult male", "Adult mating"))
+  mutate(`Life stage` = fct_relevel(`Life stage`, "Larva", "Pupa", "Adult female", "Adult male", "Adult mating"))
 
 # View(data_xl_df)
 
