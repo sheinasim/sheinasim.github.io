@@ -17,6 +17,9 @@ library(ggplot2)
 library(readxl)
 library(flexdashboard)
 library(wesanderson)
+library(cluster)    # clustering algorithms
+library(factoextra) # clustering algorithms & visualization
+library(Ckmeans.1d.dp)
 
 data_summary <- function(data, varname, groupnames){
   require(plyr)
@@ -38,26 +41,45 @@ pal3 <- wes_palette("Cavalcanti1", 5, type = "continuous")
 ```
 
 ```{r Read in file}
-
-data_xl_df <- readxl::read_xlsx("qlb_colony_spreadsheet.xlsx", col_names=T, sheet="lifestages") %>% 
+colony_lifestages_df <- readxl::read_xlsx("qlb_colony_spreadsheet.xlsx", col_names=T, sheet="lifestages") %>% 
   gather(key = "Life stage", value = "Count", -Date) %>% 
-  mutate(`Life stage` = fct_relevel(`Life stage`, "Larva", "Pupa", "Adult female", "Adult male", "Adult mating"))
+  mutate(`Life stage` = fct_relevel(`Life stage`, "Larva", "Pupa", "Adult female", "Adult male", "Adult mating")) 
 
-# View(data_xl_df)
+headcapsule_widths <- readxl::read_xlsx("qlb_colony_spreadsheet.xlsx", col_names=T, sheet="headcapsule", na = "--") %>% 
+  gather(key = "Head capsule measurement collection", value = "Width", 7:20) %>% 
+  drop_na(Width) %>% 
+  dplyr::select("Name", "Substrate", "Head capsule measurement collection", "Width") %>% 
+  mutate(Name_collection = paste(Name, "_", `Head capsule measurement collection`)) %>% 
+  dplyr::select(Name_collection, Width) %>% 
+  column_to_rownames(var = "Name_collection")
 
+# View(colony_lifestages_df)
 ```
 
 ### QLB colony individuals by life stage
 
 ```{r plot stackedbar}
-
-ggplot(data_xl_df, aes(fill=`Life stage`, y=Count, x=Date)) + 
+ggplot(colony_lifestages_df, aes(fill=`Life stage`, y=Count, x=Date)) + 
     geom_bar(position="stack", stat="identity") +
     theme_bw() +
     theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),) +
     xlab("") +
     scale_y_continuous(labels = scales::number_format(accuracy = 1)) + 
     scale_fill_manual(values=pal3)
-    
 
+```
+
+```{r plot headcapsule widths}
+result <- Ckmeans.1d.dp(headcapsule_widths$Width, 14)
+# plot(result)
+# result
+
+hc_density_hist <- ggplot(headcapsule_widths, aes(Width)) +
+  geom_histogram(binwidth = 0.2) +
+  geom_density(adjust = 1/5, aes(y=0.2 * ..count..)) +
+  theme_bw()
+
+hc_density_hist
+
+# ggsave(hc_density_hist, file = "density_hist.png", device = "png", width = 6, height = 4, units = "in")
 ```
