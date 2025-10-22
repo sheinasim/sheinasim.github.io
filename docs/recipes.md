@@ -1,3 +1,3 @@
 # Recipes
 
-[Simple sourdough](recipes/simplesourdough.md)
+[Simple sourdough](recipes/simple_sourdough.md)
