@@ -3,3 +3,5 @@
 Aloha world!
 
 I am me, my opinions are my own.
+
+[Recipes](recipes.md)
