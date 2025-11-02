@@ -11,10 +11,22 @@
 ## Ingredients
 
 - 560 g water at room temperature
-- 540 g Bread (strong) flour
+- 640 g Bread (strong) flour
 - 160 g Whole wheat flour
 - 160 g ripe sourdough starter (levain at 100% hydration, see notes)
 - 16 g salt
+
+## Optional ingredients
+
+_Cheddar jalapeno_
+
+- 100 g diced fresh jalapeno (stem and seeds removed)
+- 227 g (8 oz.) shredded sharp cheddar cheese
+
+-Cinnamon swirl_
+
+- 160 g brown sugar
+- 16 g ground cinnamon
 
 ---
 
