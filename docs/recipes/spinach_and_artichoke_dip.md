@@ -18,7 +18,7 @@
 - 1 1/2 cup stock (chicken or vegetable)
 - 1 1/2 cup heavy cream
 - 3/4 cup grated parmesan (not the powdery stuff in a green canister)
-- 2 tea boullion
+- 2 tea bouillon
 - 1 1/2 Tbl lemon juice
 - 1 tea sugar
 - 3/4 cup sour cream
@@ -35,7 +35,7 @@
 2. Add garlic and cook until fragrant but before it burns. 
 3. Add flour and toast roux. 
 4. While whisking, pour in stock slowly until roux is thick, then slowly mix in cream. 
-5. Once cream comes to a simmer, remove from heat. Add parmesan, boullion, lemon juice, and sugar. Mix until combined.
+5. Once cream comes to a simmer, remove from heat. Add parmesan, bouillon, lemon juice, and sugar. Mix until combined.
 6. Stir in sour cream, chopped and wrung spinach, and chopped artichokes.
 7. Add monterey jack cheese.
 8. Add a few splashes of Tobasco to taste. 
