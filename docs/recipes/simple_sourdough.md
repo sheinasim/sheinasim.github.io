@@ -37,13 +37,13 @@ _Cinnamon swirl_
 3. Stretch and fold gently. Rest dough for 30 minutes to 1 hour.
 4. Repeat gentle stretch and folds with 30 minutes to 1 hour rests in between until dough has doubled in size.
 5. Pre-shape: After your dough has risen, gently pour out of the bowl into a floured or misted surface. Split dough into two. If adding inclusions, add them at this stage. Gently shape into two balls. Rest for 15 minutes. 
-10. Shape: Using wet hands, shape the dough balls separately until they each have a taut skin. Flip each into a floured banneton and cover with a plastic bag. 
-11. Proof: rest until dough comes back slowly after being poked.
-12. Cold ferment: Place bannetons in the refrigerator over night until ready to bake.
-13: The following day: When you're ready to bake, pre-heat cast iron dutch ovens at 500F for 1 hour.
-14: Flip the dough onto a baking sheet lined with parchment. Score with a lame as desired. Place into separate dutch ovens and baked covered for 20 minutes. 
-15. After 20 minutes, remove lids, lower oven temperature for 450F, and bake for an additional 15 minutes.
-16. Remove from oven and out of cast irons. Allow to cool on wire racks.
+6. Shape: Using wet hands, shape the dough balls separately until they each have a taut skin. Flip each into a floured banneton and cover with a plastic bag. 
+7. Proof: rest until dough comes back slowly after being poked.
+8. Cold ferment: Place bannetons in the refrigerator over night until ready to bake.
+9: The following day: When you're ready to bake, pre-heat cast iron dutch ovens at 500F for 1 hour.
+10: Flip the dough onto a baking sheet lined with parchment. Score with a lame as desired. Place into separate dutch ovens and baked covered for 20 minutes. 
+11. After 20 minutes, remove lids, lower oven temperature for 450F, and bake for an additional 15 minutes.
+12. Remove from oven and out of cast irons. Allow to cool on wire racks.
 
 ---
 
