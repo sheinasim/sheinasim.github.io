@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Sheina's no BS recipes</h2>
+  <!-- <p>Type something in the input field to search the table for first names, last names or emails:</p> --> 
+  <input class="form-control" id="myInput" type="text" placeholder="Search..">
+  <br>
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th>Recipe</th>
+        <th>Type</th>
+        <th>Diet</th>
+        <th>Allergens</th>
+      </tr>
+    </thead>
+    <tbody id="myTable">
+      <tr>
+        <td>Love soup</td>
+        <td>Soup</td>
+        <td>Vegetarian</td>
+        <td>Eggs; Onions; Tomatoes</td>
+      </tr>
+      <tr>
+        <td><a href="https://sheinasim.github.io/recipes/simple_sourdough.html">Simple sourdough bread</a></td>
+        <td>Bread</td>
+        <td>Vegetarian; Vegan</td>
+        <td>Wheat</td>
+      </tr>
+      <tr>
+        <td><a href="https://sheinasim.github.io/recipes/spinach_and_artichoke_dip.html">Spinach and artichoke dip</a></td>
+        <td>Side</td>
+        <td>Can be vegetarian</td>
+        <td>Dairy</td>
+      </tr>
+      <tr>
+        <td>Sticky toffee pudding</td>
+        <td>Dessert</td>
+        <td>Vegetarian</td>
+	<td>Dairy</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <!-- <p>Note that we start the search in tbody, to prevent filtering the table headers.</p> and -->
+</div>
+
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+
+</body>
+</html>
