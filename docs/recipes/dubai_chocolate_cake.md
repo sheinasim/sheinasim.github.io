@@ -67,7 +67,7 @@
 5. Repeat with the next layer. 
 6. Put the final layer on top, cover with ganache, and add the remaining kataifi filling decoratively on top.
 7. Cover the sides evenly with ganache or leave minimally naked.
-8. Serve to happy cake recipients.
+
 ---
 
 ## Notes 
