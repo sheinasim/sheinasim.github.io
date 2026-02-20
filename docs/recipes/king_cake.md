@@ -62,6 +62,7 @@
 16. Combine ingredients for cream cheese glaze except for the sanding sugar.
 17. Glaze completely cooked cakes evenly. Decorate with stripes of sanding sugar, alternating colors purple, green, and gold (about three stripes of each). The stripes should go around the ring forming lines from the inside to the outside of the ring. 
 18. Put a baby somewhere in it for tradition, or don't if you don't want to.
+
 ---
 
 ## Notes 
