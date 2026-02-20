@@ -67,5 +67,5 @@
 
 ## Notes 
 
-*  Serve the following day with coffee or tea. 
+*  Serve the with coffee or tea. 
 
