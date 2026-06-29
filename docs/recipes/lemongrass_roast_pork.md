@@ -32,7 +32,7 @@
 
 1. Combine marinade ingredients in a vacuum bag and add pork.  
 2. Cover pork and vacuum seal bag. 
-3. Marinate over night in the refrigerator. 
+3. Marinate overnight in the refrigerator. 
 4. Pre-heat oven to 450F. 
 5. Extract pork from the marinade and remove large marinade pieces like lemon grass and garlic to prevent burning. Tie with kitchen twineto form compact roast and pat dry. 
 6. Coat with vegetable oil and then ground black pepper
