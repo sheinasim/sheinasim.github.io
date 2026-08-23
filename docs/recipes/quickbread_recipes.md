@@ -12,7 +12,7 @@
 
 | Ingredient | Banana (g) | Zucchini (g) | Pineapple (g) | Carrot (g) |
 |---|---|---|---|---|
-| ### Dry | | | | |
+| **Dry** |
 | AP flour | 240 | 240 | 240 | 200 |
 | Baking powder | 8 | 8 | 8 | 8 |
 | Baking soda | 2 | 2 | 2 | 2 |
@@ -21,9 +21,9 @@
 | Ginger | | | | 1 |
 | Nutmeg | | | | 1 |
 | Nuts | 60 | 60 | 60 | 100 | 
-| | | | | |
-| ### Wet | | | | |
-| Fruit caramalized or wrung out) | 350 | 220 | 220 | 165 |
+| |
+| **Wet** |
+| Fruit (caramalized or wrung out) | 350 | 220 | 220 | 165 |
 | Brown sugar | 200 | 200 | 200 | 200 |
 | Eggs | 2 | 2 | 2 | 2 |
 | Sourdough starter | 125 | 125 | 125 | 125 |
