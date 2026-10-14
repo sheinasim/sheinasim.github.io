@@ -14,7 +14,7 @@
 - 2 shallots finely minced
 - 2 inches (5 cm) of ginger finely grated
 - 4 cloves garlic finely grated
-- 250 g red Thai curry paste 
+- 150 g red Thai curry paste 
 - 25 g green Thai curry paste
 - 1200 ml combined coconut milk and chicken broth
 - fish sauce to taste
