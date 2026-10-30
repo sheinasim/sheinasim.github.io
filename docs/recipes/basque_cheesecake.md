@@ -10,7 +10,7 @@
 
 ## Ingredients
 
-- 2 lb (32 oz or 4 bricks) room temperature full fat cream cheese 
+- 2 lb (32 oz or 4 bricks) room temperature full fat cream cheese (can warm up under oven light to hurry warming)
 - 7 eggs
 - 3/4 cup heavy cream
 - 2 tea vanilla 
@@ -28,7 +28,7 @@
 5. Add remaining ingredients and mix until homogenous. 
 6. Pass mixture through a sieve and then pour into lined spring form pan. 
 7. Tap filled pan on the counter to release bubbles in the batter. 
-8. Bake for 50-55 minutes until instant read thermometer reads 155 F. Cheesecake should be dark brown on top, but still jiggly in the middle. 
+8. Bake for 47-50 minutes until instant read thermometer reads 155 F. Cheesecake should be dark brown on top, but still jiggly in the middle. 
 9. Allow to cool for 2 hours and then refrigerate overnight.
 
 ---
@@ -36,4 +36,4 @@
 ## Notes 
 
 * Naturally gluten free. 
-
+* Flavor with ube by adding 150g ube halaya and 2 teaspoons ube extract.
